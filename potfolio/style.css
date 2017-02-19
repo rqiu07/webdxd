@@ -1,0 +1,191 @@
+@font-face {
+	font-family: 'Brandon';
+	src: url('./fonts/brandon_reg.otf');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Brandon';
+	src: url('./fonts/brandon_med.otf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Brandon';
+	src: url('./fonts/brandon_thin.otf');
+	font-weight: 100;
+}
+
+body {
+	font-family: 'Brandon', helvetica, arial, sans-serif;
+	margin: 0;
+	font-size: 18px;
+	color: #333333;
+}
+
+h1 {
+	font-size: 6em;
+	margin: 0;
+	font-weight: normal;
+}
+
+
+h2 {
+	font-size: 3rem;
+	font-weight: normal;
+	margin: 0;
+}
+
+nav {
+	margin-top: 10px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.bg-img {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.brand {
+	width: 20%;
+
+}
+
+.brand > img {
+	width: 100px;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.tabs {
+	width: 80%;
+	text-align: right;
+}
+
+.tabs ul {
+	list-style: none;
+}
+
+.tabs ul > li {
+	display: inline-block;
+}
+
+.tabs ul > li > a {
+	font-size: 1.5rem;
+	padding: 20px;
+	transition: color 1s ease;
+}
+
+.tabs ul > li > a:hover {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: #d84f4a;
+}
+
+img {
+	width: 100%;
+}
+
+.brand,
+.tabs {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.text-centre {
+	text-align: center; /* only works on inline elements */
+}
+.body-content{
+	margin-left: auto;
+}
+
+.float-left {
+	width: 50%;
+	float: left;
+
+}
+
+.float-right {
+	width: 50%;
+	float: right;
+}
+
+.row {
+	width: 100%
+	margin-bottom: 50px;
+}
+
+.work-img {
+	width: 50%;
+}
+.develop-img {
+	width: 50%;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 15px 0;
+
+}
+footer h3{
+	margin: 0;
+}
+
+.clearfix:after {
+	display: block;
+	content: ' ';
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.contact-form {
+	max-width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+	width: 100%;
+	font-size: 1.5rem;
+	border-radius: 10px;
+	border: 1px solid #b2b2b2;
+	/* border-with: 1px;
+	border-style: solid;
+	*/
+	padding: 10px;
+	background-color: #f0f0f0;
+	margin-bottom: 1rem;
+}
+.contact-form button {
+	background-color: #43b3ff;
+	color: white;
+	border-color: #3680b2;
+	cursor: pointer;
+	transition: background-color 1s ease;
+	margin-bottom: 50px;
+}
+
+.contact-form button:hover {
+	color: white;
+}
